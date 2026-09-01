@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meow-lib"
+version = "1.0.0"
+description = "کتابخانه اختصاصی ربات میویی برای روبیکا"
+readme = "README.md"
+authors = [{name = "Meow Team", email = "meow@example.com"}]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "aiohttp>=3.8.0",
+]
+requires-python = ">=3.8"
